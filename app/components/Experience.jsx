@@ -10,6 +10,12 @@ class Experience extends React.Component {
     const experiences = [
       {
         company: 'uber technologies, inc',
+        position: 'software engineer',
+        duration: 'sept \'16 - now',
+        description: 'Working on Maps Services to improve ETAs across Uber.'
+      },
+      {
+        company: 'uber technologies, inc',
         position: 'software engineering intern',
         duration: 'jun \'15 - sept \'15',
         description: 'Worked on Supply Engineering to increase the number of driver signups through referrals. Built a client-side tool in React that allows ops to control and customize driver referral campaigns. Wrote Python for the referrals backend service, and maintained 100% test coverage for the entire application.'

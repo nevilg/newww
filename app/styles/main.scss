@@ -106,6 +106,12 @@ div.intro-text {
   div.icons {
     margin-top: 7%;
     font-size: $font-size;
+
+    i.soundcloud-icon {
+      font-size: 70%;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
   }
 
   i {

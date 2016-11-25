@@ -12,11 +12,13 @@ import App from './components/App.jsx';
 import Intro from './components/Intro.jsx';
 import Experience from './components/Experience.jsx';
 
-ReactDOM.render((
+var routes = (
   <Router history={browserHistory}>
-    <Route path="/newww/" component={App}>
-      <IndexRoute component={Intro} />
-      <Route path="/experience" component={Experience} />
+    <Route path="/" component={App}>
+      <IndexRoute component={Intro}/>
+      <Route path="/experience" component={Experience}/>
     </Route>
   </Router>
-), document.getElementById('app'));
+);
+
+ReactDOM.render(routes, document.getElementById('app'));
