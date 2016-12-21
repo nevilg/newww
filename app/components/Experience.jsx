@@ -12,7 +12,7 @@ class Experience extends React.Component {
         company: 'uber technologies, inc',
         position: 'software engineer',
         duration: 'sept \'16 - now',
-        description: 'Working on Maps Services to improve ETAs across Uber.'
+        description: 'Working on Routing Services to improve ETAs across Uber.'
       },
       {
         company: 'uber technologies, inc',
