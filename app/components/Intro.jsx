@@ -1,6 +1,7 @@
 // Intro.jsx
 
 import React from 'react';
+import Footer from './Footer.jsx';
 
 class Intro extends React.Component {
   render() {
@@ -15,6 +16,8 @@ class Intro extends React.Component {
             <a href="https://soundcloud.com/nevilgeorge" target="_blank"><i className="fa fa-soundcloud soundcloud-icon"></i></a>
             <a href="https://github.com/nevilgeorge" target="_blank"><i className="fa fa-github"></i></a>
         </div>
+
+        <Footer />
       </div>
     );
   }
