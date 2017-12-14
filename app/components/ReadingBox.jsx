@@ -7,7 +7,7 @@ class ReadingBox extends React.Component {
     return (
       <div className="reading-box">
         <h2>
-          <a className="hyperlink" href={this.props.link}>
+          <a className="hyperlink" href={this.props.link} target="_blank">
             {this.props.title}
           </a>
 
