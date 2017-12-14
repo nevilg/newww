@@ -37,7 +37,6 @@ div.nav-navbar {
       height: 100%;
       // width changes with number of li elements
       width: 100%;
-      float: left;
       padding-top: 10px;
       padding-bottom: 10px;
 
@@ -144,6 +143,7 @@ div.experience-box {
     span {
       color: $text-color3;
       font-size: 65%;
+      margin-left: 10px;
     }
   }
 
@@ -158,3 +158,51 @@ div.experience-box {
   }
 }
 // End Experience styling
+
+// Start Readings styling
+div.reading-box {
+  height: 20%;
+  background-color: $background-color;
+  padding: 20px 20px 0px 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  h2 {
+    color: $text-color1;
+    margin-bottom: 3px;
+    margin-top: 3px;
+
+    span {
+      color: $text-color3;
+      font-size: 65%;
+      margin-left: 10px;
+    }
+  }
+
+  h3 {
+    margin-top: 0;
+    color: $text-color3;
+  }
+
+  p {
+    color: $text-color2;
+    font-size: 140%;
+  }
+}
+// End Readings styling
+
+// Hyperlink hover
+a.hyperlink {
+    text-decoration: none;
+    color: $text-color1;
+}
+
+a.hyperlink:hover {
+  text-decoration: none;
+  color: $text-color3;
+}
+
+a.hyperlink:active {
+  text-decoration: none;
+  color: $text-color2;
+}

@@ -9,6 +9,7 @@ class Navbar extends React.Component {
       <div className="nav-navbar">
         <ul className="animated fadeInUp nav-bar">
           <li><Link to="/experience">experience</Link></li>
+          <li><Link to="/readings">readings</Link></li>
         </ul>
       </div>
     );
