@@ -1,7 +1,7 @@
 // Intro.jsx
 
 import React from 'react';
-import Footer from './Footer.jsx';
+import Navbar from './Navbar.jsx';
 
 class Intro extends React.Component {
   render() {
@@ -17,7 +17,7 @@ class Intro extends React.Component {
             <a href="https://github.com/nevilgeorge" target="_blank"><i className="fa fa-github"></i></a>
         </div>
 
-        <Footer />
+        <Navbar />
       </div>
     );
   }

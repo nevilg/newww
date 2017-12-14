@@ -1,12 +1,12 @@
-// Footer.jsx
+// Navbar.jsx
 
 import React from 'react';
 import { Link } from 'react-router';
 
-class Footer extends React.Component {
+class Navbar extends React.Component {
   render() {
     return (
-      <div className="nav-footer">
+      <div className="nav-navbar">
         <ul className="animated fadeInUp nav-bar">
           <li><Link to="/experience">experience</Link></li>
         </ul>
@@ -15,4 +15,4 @@ class Footer extends React.Component {
   }
 }
 
-export default Footer;
+export default Navbar;
