@@ -17,10 +17,15 @@ class Readings extends React.Component {
         title: 'a couple in chicago',
         date: '2016/03/12',
         link: 'https://www.newyorker.com/magazine/2009/01/19/a-couple-in-chicago'
+      },
+      {
+        title: 'on finding your purpose',
+        date: '2016/07/16',
+        link: 'http://tranquilmonkey.com/hunter-s-thompsons-extraordinary-letter-on-finding-your-purpose/'
       }
     ];
 
-    const readingBoxes = readings.map((reading, index) => {
+    const readingBoxes = readings.reverse().map((reading, index) => {
       return (
         <div key={index} className="reading-box col-xs-12 col-md-6 col-lg-6 col-md-offset-3 col-lg-offset-3">
           <ReadingBox
