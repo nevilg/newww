@@ -4,6 +4,8 @@ const merge = require('webpack-merge');
 const webpack = require('webpack');
 const NpmInstallPlugin = require('npm-install-webpack-plugin');
 
+// JSON files to be loaded by json-loader
+
 const TARGET = process.env.npm_lifecycle_event;
 process.env.BABEL_ENV = TARGET;
 const PATHS = {
@@ -53,6 +55,12 @@ const common = {
         test: /\.jsx?$/,
         loaders: ['babel?cacheDirectory'],
         include: PATHS.app
+      },
+
+      // JSON loaders
+      {
+        test: /\.json$/,
+        loader: "json-loader"
       }
     ]
   }
