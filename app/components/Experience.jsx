@@ -8,7 +8,7 @@ import experiences from '../content/experiences.json';
 class Experience extends React.Component {
   constructor(props) {
     super(props);
-    const experienceBoxes = experiences.reverse().map((experience, index) => {
+    const experienceBoxes = experiences.map((experience, index) => {
       return (
         <div key={index} className="experience-box col-xs-12 col-md-6 col-lg-6 col-md-offset-3 col-lg-offset-3">
           <ExperienceBox
@@ -20,14 +20,11 @@ class Experience extends React.Component {
         </div>
       );
     });
-    
-    this.state = {
-      experienceBoxes: experienceBoxes
-    }
+
+    this.state = {experienceBoxes: experienceBoxes};
   }
 
   render() {
-
     return (
       <ContentPage
         title="experience"

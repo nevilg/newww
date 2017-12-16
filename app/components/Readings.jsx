@@ -8,7 +8,7 @@ import readings from '../content/readings.json';
 class Readings extends React.Component {
   constructor(props) {
     super(props);
-    this.readingBoxes = readings.reverse().map((reading, index) => {
+    const readingBoxes = readings.map((reading, index) => {
       return (
         <div key={index} className="reading-box col-xs-12 col-md-6 col-lg-6 col-md-offset-3 col-lg-offset-3">
           <ReadingBox
@@ -20,13 +20,15 @@ class Readings extends React.Component {
         </div>
       );
     });
+
+    this.state = {readingBoxes: readingBoxes};
   }
 
   render() {
     return (
       <ContentPage
         title="readings"
-        content={this.readingBoxes}
+        content={this.state.readingBoxes}
       />
     );
   }
