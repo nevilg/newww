@@ -10,11 +10,11 @@ class ReadingBox extends React.Component {
           <a className="hyperlink" href={this.props.link} target="_blank">
             {this.props.title}
           </a>
-
           <span>
             {this.props.date}
           </span>
         </h2>
+        <h3>{this.props.author}</h3>
         <p>{this.props.description}</p>
       </div>
     );

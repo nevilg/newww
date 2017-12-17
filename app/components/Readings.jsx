@@ -15,6 +15,7 @@ class Readings extends React.Component {
             title={reading.title}
             date={reading.date}
             link={reading.link}
+            author={reading.author}
             description={reading.description}
           />
         </div>
