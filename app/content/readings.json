@@ -1,5 +1,12 @@
 [
   {
+    "title": "Shoe Dog",
+    "date": "2018/2",
+    "link": "https://www.goodreads.com/book/show/27220736-shoe-dog",
+    "author": "Phil Knight",
+    "description": "An incredibly inspiring book that is humbly written. I cannot recommend it more highly. So many great quotes, but here's one: \"Life is growth. You grow or you die.\""
+  },
+  {
     "title": "Cassandra - A Decentralized Structured Storage System",
     "date": "2018/2",
     "link": "https://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf",
