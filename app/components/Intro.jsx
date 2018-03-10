@@ -15,6 +15,7 @@ class Intro extends React.Component {
             <a href="http://linkedin.com/in/nevilgeorge" target="_blank"><i className="fa fa-linkedin"></i></a>
             <a href="https://soundcloud.com/nevilgeorge" target="_blank"><i className="fa fa-soundcloud soundcloud-icon"></i></a>
             <a href="https://github.com/nevilgeorge" target="_blank"><i className="fa fa-github"></i></a>
+            <a href="mailto:liven93@gmail.com"><i className="fa fa-envelope envelope-icon"></i></a>
         </div>
 
         <Navbar />
