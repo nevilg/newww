@@ -1,5 +1,19 @@
 [
   {
+    "title": "Ad Click Prediction: a View from the Trenches",
+    "date": "2018/2",
+    "link": "https://research.google.com/pubs/pub41159.html",
+    "author": "McMahon, Sculley et al (Research at Google)",
+    "description": "The TL;DR on this paper is the FTRL (\"Follow The Regularized Leader\") algorithm, an alternative to online gradient descent that works especially well for datasets with large, sparse input features (ie. billions of dimensions, but only hundreds of nonzero values). I'm not very interested in ad click prediction per say, but more so in large-scale realtime systems and implementing ML mechanisms on streaming data. What I found especially interesting in this paper are the optimizations that are done for this to work at Google's scale (probabilistic feature inclusion, encoding values with 16 bits rather than 32/64 bits, etc). Lastly, I thought Google's automated feature management system is a great idea for how features (referred to as \"signals\" in the paper) can be shared and managed among different teams. This is especially useful for large companies with a distributed approach to investing in ML."
+  },
+  {
+    "title": "Nonviolent Communication",
+    "date": "2018/2",
+    "link": "https://www.goodreads.com/book/show/71730.Nonviolent_Communication",
+    "author": "Marshall B. Rosenberg",
+    "description": "An interesting read about how to express yourself more fully, empathize with others more patiently and mediate conflicts more thoughtfully."
+  },
+  {
     "title": "Shoe Dog",
     "date": "2018/2",
     "link": "https://www.goodreads.com/book/show/27220736-shoe-dog",
