@@ -1,5 +1,26 @@
 [
   {
+    "title": "Brotopia",
+    "date": "2018/3",
+    "link": "https://www.goodreads.com/book/show/36288143-brotopia",
+    "author": "Emily Chang",
+    "description": "Diversity in tech (or the lack thereof) is an often-discussed topic. This book still contributed some alarming evidence on how women continue to face a bias against them in a systematic manner inside the tech industry."
+  },
+  {
+    "title": "Hillbilly Elegy",
+    "date": "2018/3",
+    "link": "https://www.goodreads.com/book/show/27161156-hillbilly-elegy",
+    "author": "J.D Vance",
+    "description": "A eye-opening memoir of the life of a man who grew up in the Rust Belt. Vance writes very simply, but it's so engrossing that I read the book cover-to-cover in one five-hour sitting. It's also refreshing to see him be critical of both government policies and also the societal culture that leads to disenfranchisement of poor whites in America."
+  },
+  {
+    "title": "The Orphan Master's Son",
+    "date": "2018/3",
+    "link": "https://www.goodreads.com/book/show/11529868-the-orphan-master-s-son",
+    "author": "Adam Johnson",
+    "description": "A thrilling story of an orphan's life in North Korea. The book was based on a lot of research the author conducted on the DPRK. I thought the book started off a little slow, but the second half is an intense page-turner."
+  },
+  {
     "title": "Ad Click Prediction: a View from the Trenches",
     "date": "2018/3",
     "link": "https://research.google.com/pubs/pub41159.html",
