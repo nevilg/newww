@@ -1,5 +1,26 @@
 [
   {
+    "title": "How to Read a Paper",
+    "date": "2018/5",
+    "link": "https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf",
+    "author": "S. Keshav",
+    "description": "This paper is very meta. I was never very interested in reading research papers during college, so now I am atoning. This paper is about the three-pass approach of reading computer science research papers."
+  },
+  {
+    "title": "Paxos Made Simple",
+    "date": "2018/5",
+    "link": "https://lamport.azurewebsites.net/pubs/paxos-simple.pdf",
+    "author": "Leslie Lamport",
+    "description": "A seminal work in distributed systems. The Paxos Algorithm is a consensus algorithm used in fault-tolerant distributed systems. I found bits of the final part of the paper a little abstract and difficult to understand, but overall, a really concisely written paper."
+  },
+  {
+    "title": "Bigtable: A Distributed Storage System for Structured Data",
+    "date": "2018/4",
+    "link": "https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf",
+    "author": "Fay Chang, Jeffrey Dean, et al",
+    "description": "I took many breaks while reading this paper, so I didn't get as much as I wanted out of it. BigTable is mainly just a multi-dimensional sorted map, with each value in the map being an array of bytes (hence the ability for it to store a wide variety of data). I found it fascinating how the entire BigTable system is dependent on other Google inventions, such as Google File System and Chubby."
+  },
+  {
     "title": "Brotopia",
     "date": "2018/3",
     "link": "https://www.goodreads.com/book/show/36288143-brotopia",
