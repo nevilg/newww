@@ -1,5 +1,12 @@
 [
   {
+    "title": "Kafka: a Distributed Messaging System for Log Processing",
+    "date": "2018/5",
+    "link": "https://www.ece.cmu.edu/~ece845/docs/kafka.pdf",
+    "author": "Jay Kreps, Nega Narkhede, Jun Rao",
+    "description": "I've been using Kafka at work for a while now, so reading the paper was just an effort to get a stronger understanding of the core system. Kafka is ubiquitous in real-time data streaming systems in industry today, and the original paper is a very interesting read."
+  },
+  {
     "title": "How to Read a Paper",
     "date": "2018/5",
     "link": "https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf",
