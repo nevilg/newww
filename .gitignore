@@ -1,2 +1,5 @@
 node_modules
 build
+venv
+scripts/secrets.json
+scripts/output.json

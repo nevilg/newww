@@ -1,6 +1,6 @@
 # !/bin/bash
 # deploy.sh
-# builds and deploys changes automatically
+# Builds and deploys changes automatically
 
 echo "Building..."
 webpack
